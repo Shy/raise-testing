@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.9"
       # Set the WiFi credentials from GitHub Actions secrets on this repository
-      - uses: DamianReeves/write-file-action@v1.2
+      - uses: DamianReeves/write-file-action@v1.3
         name: Write include/wifi_credentials.h
         with:
           path: include/wifi_credentials.h
