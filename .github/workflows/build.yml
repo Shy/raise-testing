@@ -23,7 +23,7 @@ jobs:
             ~/.platformio/.cache
           key: ${{ runner.os }}-pio
       # Setup Python to install PlatformIO
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.9"
       # Set the WiFi credentials from GitHub Actions secrets on this repository
